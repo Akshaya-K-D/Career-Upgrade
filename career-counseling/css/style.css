@@ -1,0 +1,101 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background:#f4f6f9;
+  text-align:center;
+}
+
+.navbar {
+  background:#1e1e2f;
+  color:white;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.logo { color:#4CAF50; }
+
+.nav-links a {
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+}
+
+.btn-nav {
+  background:#4CAF50;
+  padding:8px 15px;
+  border-radius:5px;
+}
+
+.hero {
+  background:linear-gradient(to right,#4CAF50,#2e8b57);
+  color:white;
+  padding:100px 20px;
+}
+
+.hero-buttons button { margin:10px; }
+
+.outline {
+  background:transparent;
+  border:2px solid white;
+}
+
+.section { padding:60px 20px; }
+
+.light { background:white; }
+
+.features {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.card {
+  background:white;
+  width:300px;
+  margin:15px auto;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.steps {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.step {
+  background:#4CAF50;
+  color:white;
+  padding:15px 20px;
+  margin:10px;
+  border-radius:20px;
+}
+
+.cta {
+  background:#222;
+  color:white;
+  padding:70px 20px;
+}
+
+footer {
+  background:#111;
+  color:white;
+  padding:20px;
+}
+
+input, select, button {
+  padding:10px;
+  margin:10px;
+  width:250px;
+}
+
+button {
+  background:#4CAF50;
+  color:white;
+  border:none;
+  cursor:pointer;
+  border-radius:5px;
+}
